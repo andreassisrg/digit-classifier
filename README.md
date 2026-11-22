@@ -2,7 +2,7 @@
 
 A two-layer neural network implemented from scratch in NumPy and trained with gradient descent to classify MNIST digits. A web interface lets you train the network and draw digits for it to classify.
 
-📄 **Full report (in Portuguese):** [tp2-rna-para-classificacao-de-digitos.pdf](tp2-rna-para-classificacao-de-digitos.pdf)
+📄 **Full report (in Portuguese):** [report.pdf](report.pdf)
 
 ## Model
 
@@ -48,7 +48,7 @@ To plot the curves from `src/model/` (saved to `src/losses.png` and `src/accurac
 python src/plot.py
 ```
 
-`src/model/` already holds the weights of the best configuration. Click **Carregar Pesos** (Load Weights) in the interface to draw digits without training first.
+`src/model/` already holds the weights of the best configuration. Click **Load Weights** in the interface to draw digits without training first.
 
 ## Structure
 

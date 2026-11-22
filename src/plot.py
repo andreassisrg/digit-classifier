@@ -59,7 +59,7 @@ losses = load_data(os.path.join(MODEL_DIR, 'losses.csv'))
 accuracies = load_data(os.path.join(MODEL_DIR, 'accuracies.csv'))
 
 # Plot the losses curve
-plot_curve(losses, 'red', 'solid', os.path.join(BASE_DIR, 'losses.png'), 'Número de Épocas (x100)', 'Perda')
+plot_curve(losses, 'red', 'solid', os.path.join(BASE_DIR, 'losses.png'), 'Epochs (x100)', 'Loss')
 
 # Plot the accuracies curve
-plot_curve(accuracies, 'blue', 'solid', os.path.join(BASE_DIR, 'accuracies.png'), 'Número de Épocas (x100)', 'Acurácia')
+plot_curve(accuracies, 'blue', 'solid', os.path.join(BASE_DIR, 'accuracies.png'), 'Epochs (x100)', 'Accuracy')
