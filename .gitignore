@@ -4,3 +4,4 @@ tp2-env/
 .DS_Store
 Icon
 mnist_digit_0.png
+*.pdf
