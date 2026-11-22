@@ -2,8 +2,6 @@
 
 Rede neural de duas camadas implementada do zero em NumPy e treinada por gradiente descendente para classificar os dígitos do MNIST, com uma interface web para treinar a rede e desenhar dígitos.
 
-Trabalho prático 2 de **DCC642 – Introdução à Inteligência Artificial** (DCC/UFMG).
-
 📄 **Relatório completo:** [tp2-rna-para-classificacao-de-digitos.pdf](tp2-rna-para-classificacao-de-digitos.pdf)
 
 ## Modelo
