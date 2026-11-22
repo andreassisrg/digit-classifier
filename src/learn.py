@@ -74,8 +74,8 @@ def backward(X, y, W2, Z1, A1, A2):
 def gradient_descent_step(X, y, parameters, learning_rate=0.01):
     W1, b1, W2, b2 = parameters
 
-    # load_mnist() retorna os rotulos como matriz esparsa (scipy)
-    # ndarray denso para que '*' e '-' sejam operacoes elemento a elemento.
+    # load_mnist() returns the labels as a SciPy sparse matrix; convert them
+    # to a dense ndarray so that '*' and '-' are element-wise operations.
     if hasattr(y, "toarray"):
         y = y.toarray()
 
